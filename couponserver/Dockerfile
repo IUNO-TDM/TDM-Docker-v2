@@ -1,4 +1,4 @@
-FROM iuno/tdm-couponserver:testing
+FROM iuno/tdm-couponserver:master
 
 COPY config/ /usr/src/app/config/
 COPY cert/ /usr/src/app/cert/

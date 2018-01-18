@@ -1,1 +1,1 @@
-FROM iuno/tdm-auth-db:testing
+FROM iuno/tdm-auth-db:master

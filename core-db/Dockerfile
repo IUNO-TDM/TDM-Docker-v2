@@ -1,1 +1,1 @@
-FROM iuno/tdm-core-db:testing
+FROM iuno/tdm-core-db:master

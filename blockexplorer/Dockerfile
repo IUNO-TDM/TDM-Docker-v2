@@ -1,1 +1,1 @@
-FROM iuno/tdm-blockexplorer:testing
+FROM iuno/tdm-blockexplorer:master

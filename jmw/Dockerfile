@@ -1,4 +1,4 @@
-FROM iuno/tdm-jmw:testing
+FROM iuno/tdm-jmw:master
 
 COPY config/ /usr/src/app/config/
 # Set ENV Variables

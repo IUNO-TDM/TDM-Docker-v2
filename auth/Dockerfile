@@ -1,4 +1,4 @@
-FROM iuno/tdm-auth:testing
+FROM iuno/tdm-auth:master
 
 COPY config/ /usr/src/app/config/
 # Set ENV Variables

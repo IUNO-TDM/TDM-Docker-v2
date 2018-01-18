@@ -1,4 +1,4 @@
-FROM iuno/tdm-jms:testing
+FROM iuno/tdm-jms:master
 
 COPY config/ /usr/src/app/config/
 
