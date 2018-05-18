@@ -1,4 +1,4 @@
-FROM iuno/tdm-core:master
+FROM iuno/tdm-core:testing
 
 COPY config/ /usr/src/app/config/
 COPY cert/ /usr/src/app/cert/

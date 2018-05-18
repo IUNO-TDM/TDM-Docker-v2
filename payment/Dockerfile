@@ -1,1 +1,1 @@
-FROM iuno/tdm-payment:master
+FROM iuno/tdm-payment:testing

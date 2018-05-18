@@ -1,1 +1,1 @@
-FROM iuno/tdm-vault:master
+FROM iuno/tdm-vault:testing
