@@ -16,6 +16,7 @@
 | [iuno/tdm-couponserver](https://hub.docker.com/r/iuno/tdm-couponserver/builds/) | ![](https://img.shields.io/docker/build/iuno/tdm-couponserver.svg)|
 | [iuno/tdm-mixer](https://hub.docker.com/r/iuno/tdm-mixer/builds/) | ![](https://img.shields.io/docker/build/iuno/tdm-mixer.svg)|
 | [iuno/tdm-pump](https://hub.docker.com/r/iuno/tdm-pump/builds/) | ![](https://img.shields.io/docker/build/iuno/tdm-pump.svg)|
+| [iuno/tdm-ams](https://hub.docker.com/r/iuno/tdm-ams/builds/) | ![](https://img.shields.io/docker/build/iuno/tdm-ams.svg)|
 
 
 
