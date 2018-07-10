@@ -94,6 +94,12 @@ services:
       - ALL
     volumes:
       - coupon-db:/usr/src/db
+  ams:
+    build: ams
+    ports: "3007:3007"
+    restart: always
+    cap_drop:
+      - ALL
 
 volumes:
   payment-wallet:
