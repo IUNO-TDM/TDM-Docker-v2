@@ -96,7 +96,8 @@ services:
       - coupon-db:/usr/src/db
   ams:
     build: ams
-    ports: "3007:3007"
+    ports: 
+      - "3007:3007"
     restart: always
     cap_drop:
       - ALL
