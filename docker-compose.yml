@@ -39,8 +39,8 @@ services:
     ports:
       - "3005:3005"
       - "3006:3006"
-    volumes:
-      - user-images:/usr/src/app/images
+#    volumes:
+#      - user-images:/usr/src/app/images
     restart: always
     cap_drop:
       - ALL
@@ -68,6 +68,9 @@ services:
     build: core
     ports:
       - "3002:3002"
+#    volumes:
+#      - recipe-images:/usr/src/app/images/recipes
+#      - core-data:/usr/src/app/files
     restart: always
     cap_drop:
       - ALL
@@ -96,7 +99,7 @@ services:
       - coupon-db:/usr/src/db
   ams:
     build: ams
-    ports: 
+    ports:
       - "3007:3007"
     restart: always
     cap_drop:
@@ -108,8 +111,10 @@ volumes:
   m2-repo:
   user-images:
   coupon-db:
-#  auth-db-data:
-#  core-db-data:
+  auth-db-data:
+  core-db-data:
+  recipe-images:
+  core-data:
 
 networks:
   default:
